@@ -1,4 +1,5 @@
 class Song
+  require "pry"
 
   attr_accessor :name, :artist, :genre
 
@@ -29,7 +30,7 @@ class Song
 
   def self.genre_count
     hash = {}
-    @@grenres.each do |genre|
+    @@genres.each do |genre|
       if hash[genre]
         hash[genre] += 1
       else
