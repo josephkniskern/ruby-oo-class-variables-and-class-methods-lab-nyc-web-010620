@@ -38,9 +38,4 @@ class Song
     end
     hash
   end
-
-  # def self.count
-  #   @@count += self
-  # end
-
 end
