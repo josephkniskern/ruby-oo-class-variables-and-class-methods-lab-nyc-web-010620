@@ -34,7 +34,7 @@ class Song
       if hash[genre]
         hash[genre] += 1
       else
-        hash[genre]
+        hash[genre] = 1
       end
     end
     hash
