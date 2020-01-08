@@ -15,6 +15,10 @@ class Song
     @@artists << artist
   end
 
+  def count
+    @@count += 1
+  end
+
   def genre_count
     hash = {}
     @@grenres.each do |genre|
